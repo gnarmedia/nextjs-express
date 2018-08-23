@@ -1,0 +1,22 @@
+{
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server/index.js"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "body-parser": "^1.18.3",
+    "bulma": "^0.7.1",
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.1.1",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "next": "6.1.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react": "16.4.2",
+    "react-dom": "16.4.2"
+  }
+}
